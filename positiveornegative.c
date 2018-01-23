@@ -18,4 +18,5 @@ else
  {
  printf("Positive");
  }
+ return 0;
 }
