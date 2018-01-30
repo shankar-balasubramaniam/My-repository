@@ -2,7 +2,7 @@
 int main()
 {
 int i,N,K,sum=0;
-int array[N];
+int array[100];
 printf("Enter the size of array:");
 scanf("%d",&N);
 printf("For how many elements of the array do you want to find the sum?");
