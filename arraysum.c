@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int N,K;
+int N,K,sum=0;
 int array[N];
 printf("Enter the size of array:");
 scanf("%d",&N);
@@ -14,6 +14,8 @@ for(i=0;i<N;i++)
  }
 for(i=0;i<K;i++)
  {
- sum=sum+
+ sum+=array[i];
  }
+printf("The sum of  first %d elements in the array is %d",K,sum);
+return 0;
 }
