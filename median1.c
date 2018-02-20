@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
-{int j,i,n,a[n],temp;
+{long int j,i,n,a[n],temp;
 printf("Enter the no. of values to be entered:");
-scanf("%d",&n);
+scanf("%ld",&n);
 printf("Enter the values:");
 for(i=0;i<n;i++)
-{scanf("%d",&a[i]);
+{scanf("%ld",&a[i]);
 }
 for(i=0;i<n;i++)
 {
