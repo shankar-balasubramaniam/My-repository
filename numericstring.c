@@ -1,17 +1,16 @@
 #include<stdio.h>
+#include<string.h>
 int main()
+{     
+char num[16];
+scanf("%s", tmp);
+int Digit = 0;
+int i=0;
+while(j<strlen(num) && Digit == 0)
 {
-char num;
-printf("Enter a string:");
-scanf("%s",&num);    
-     
-if(num>=48 && num<=57)
- {
- printf("The string is numeric...");
- }
-else
-{
-printf("The string is not numeric...");
-}
-return 0;
+  if(num[i] > 57 && num[i] < 48)
+    Digit = 0;
+  else
+    Digit = 1;
+  j++;
 }
