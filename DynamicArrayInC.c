@@ -3,8 +3,7 @@
 #include<string.h>
 int *total_number_of_books;
 int **total_number_of_pages;
-int
-main ()
+int main ()
 {
   int total_number_of_shelves;
   scanf ("%d", &total_number_of_shelves);
