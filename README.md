@@ -1,2 +1,2 @@
 # My-repository
-All my codes for Codekata
+All my codes
