@@ -23,7 +23,7 @@ int main()
     }
     for(i=0;i<(r-k+1);i++)
     {
-        for(j=0;j<(r-k+1);j++)
+        for(j=0;j<(c-k+1);j++)
         {
             if(sum[i][j]>max)
             {
